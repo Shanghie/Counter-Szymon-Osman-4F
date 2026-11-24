@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Counter.Views.NewCounterPage"
+             Title="Nowy licznik">
+    <VerticalStackLayout Spacing="15" Margin="20">
+        <Label Text="Nazwa licznika" />
+        <Entry x:Name="nameEntry" Placeholder="np. Przysiady" Completed="Save_Clicked" />
+        <Grid ColumnDefinitions="*,*" ColumnSpacing="10">
+            <Button Text="Zapisz" Clicked="Save_Clicked" />
+            <Button Grid.Column="1" Text="Anuluj" Clicked="Cancel_Clicked" />
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Counter.Views.AboutPage"
+             Title="O aplikacji">
+    <VerticalStackLayout Spacing="10" Margin="20">
+        <Label Text="Counter" FontSize="32" FontAttributes="Bold" />
+        <Label Text="Aplikacja .NET MAUI do zarządzania wieloma licznikami. Dodawaj liczniki z własną nazwą, zwiększaj i zmniejszaj ich wartość." />
+        <Label Text="Wersja 1.0" TextColor="Gray" />
+    </VerticalStackLayout>
+</ContentPage>
